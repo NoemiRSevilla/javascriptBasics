@@ -1,0 +1,159 @@
+Basic Foundation 1
+
+[1]
+Get 1-255
+
+function first(){
+  var arr =[];
+	for(var i=0; i<=255; i++){
+		arr.push(i);
+	}
+	return(arr);
+}
+
+console.log(first());
+
+[2]
+function second(){
+  var sum = 0;
+  for (var i=0; i<=1000; i++){
+    if (i % 2===0){
+      sum+=i;
+    }
+  }
+  return sum;
+}
+
+console.log(second());
+
+[3]
+function third(){
+  var sum=0;
+  for (var i=0; i<=5000; i++){
+    if (i%2==1){
+      sum+=i;
+    }
+  }
+  return sum;
+}  
+
+console.log(third());
+
+[4]
+function fourth() {
+    var arr = [3, 1, 437198, 6587];
+    var sum = 0;
+    for(var i=0; i<arr.length; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
+
+console.log(fourth());
+
+[5]
+function fifth(){
+  var arr= [1, 8, 6, 362178, 9];
+  var max = arr[0];
+  for (var i=0; i<=arr.length; i++){
+    if (max <= arr[i]){
+      max=arr[i];
+      }
+    }
+  return max;
+  }
+  console.log(fifth());
+
+  [6]
+function sixth(arr){
+  var sum = 0;
+  for (var i=0; i<arr.length; i++){
+    sum+=arr[i];
+  }
+  var avg = sum/arr.length;
+  return avg
+}
+
+console.log(sixth([789, 1223, 809, 12398]));
+
+[7]
+function seven(){
+  var arr=[];
+  for (var i=1; i<50; i++){
+    if (i%2!=0){
+      arr.push(i);
+    }
+  }
+  return arr;
+}
+
+console.log(seven());
+
+[8]
+function eigth (arr, y){
+  var count = 0;
+  for (i=0; i<=arr.length; i++){
+    if(arr[i]>y){
+      count+=1;
+    }
+  }
+  return count;
+}
+
+console.log (eigth([4,3,2,8,2,654654,234], 55));
+
+[9]
+function nine(arr){
+  var squared = [];
+  var x;
+  for (var i=0; i<arr.length; i++){
+    x=arr[i]*arr[i];
+    squared.push(x);
+  }
+  return squared;
+}
+console.log(nine([1,2,3,4,5]));
+
+[10]
+
+function ten(arr){
+  for (var i=0; i<arr.length; i++){
+    if (arr[i]<0){
+      arr[i]=0;
+    }
+  }
+  return arr;
+}
+console.log(ten([-321, 432, -432, 444, -321312, -3424, -5]));
+
+[11]
+
+function eleven(arr){
+  var max=arr[0];
+  var min=arr[0];
+  var sum=0;
+  for (var i=0; i< arr.length; i++){
+    if (max<arr[i]){
+      max=arr[i];
+    }
+    if (min>arr[i]){
+      min=arr[i];
+    }
+    sum =sum+arr[i];
+  }
+  var avg=sum/arr.length;
+  return [max, min, avg];
+}
+console.log(eleven([5, 1, 634, 123, 875756, 3432,5]));
+
+[12]
+
+function twelve(arr){
+  var first = arr[0];
+  var last = arr[arr.length-1];
+  arr.splice(0,1,arr[arr.length-1]);
+  arr.splice(arr[arr.length-1], 1, first);
+  return arr;
+}
+console.log(twelve([5,2,7,2,4,7,9]));
+

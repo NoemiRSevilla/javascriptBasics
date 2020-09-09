@@ -1,0 +1,129 @@
+/*CSS reset settings here*/
+*{
+outline: 0;
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+#wrapper{
+ width: 970px;
+ height: 530px;
+ background-color: rgb(21, 54, 131);
+ margin: 5px;
+ padding: 10px;
+ margin: 0px auto;
+}
+
+#header{
+ height: 40px;
+ background-color: rgb(175, 7, 7);
+ padding: 10px;
+ padding-top: 20px;
+ padding-left: 10px;
+ color: rgb(202, 201, 201);
+ border-radius: 15px;
+}
+
+#navigation{
+ height: 150px;
+ width: 140px;
+ padding: 15px;
+ margin-top: 20px;
+ background-color: rgb(24, 172, 167);
+ display: inline-block;
+ vertical-align: top;
+ border-radius: 15px;
+}
+
+#main_content{
+ height:380px;
+ width: 775px;
+ background-color: black;
+ margin-left: 20px;
+ margin-top: 20px;
+ color: white;
+ font-size: 12px;
+ vertical-align: top;
+ display: inline-block;
+ border-radius: 15px;
+}
+
+#main_content h2{
+	margin: 15px;
+}
+
+#main_content p{
+	margin-left: 15px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+}
+
+#main_content li{
+	margin-left: 30px;
+	margin-bottom: 5px;
+	padding-right: 15px;
+}
+
+.blue {
+	text-decoration: underline;
+	color: rgb(125, 208, 199);
+}
+
+.purple{
+	color: rgb(156, 16, 234)
+}
+
+#home{
+ text-align: left;
+ font-size: 9pt;
+ text-decoration: underline;
+ color: rgb(125, 208, 199);
+}
+
+#overview{
+text-align: left;
+font-size: 9pt;
+padding-left: 15px;
+color: rgb(125, 208, 199);
+text-decoration: underline;
+}
+
+.insider{
+text-align: left;
+font-size: 9pt;
+padding-left: 30px;
+text-decoration: underline;
+color: rgb(125, 208, 199);
+}
+
+.work{
+text-align: left;
+padding-left: 15px;
+font-size: 9pt;
+text-decoration: underline;
+color: rgb(125, 208, 199);
+}
+
+#advertisement{
+ height: 35px;
+ width: 960px;
+ margin-top: 15px;
+ margin-bottom: 40px;
+ padding: 4px;
+ background-color: gray;
+ font-size: 9pt;
+ border-radius: 15px;
+}
+
+#advertisement p{
+color: white;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+#advertisement span{
+text-decoration: underline;
+margin-top: 10px;
+color: rgb(125, 208, 199);
+}
